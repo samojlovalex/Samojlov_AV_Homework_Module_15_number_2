@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_15_number_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="startNameTextViewTV_Hint">Название</string>
+    <string name="startInfoTextViewTV">Информация</string>
+    <string name="startNameTextViewTV_Text">Самый честный банк</string>
+    <string name="startButtonBT_Text">Начать</string>
+    <string name="signUpTitleTV_Text">SignUP</string>
+    <string name="userNameSignET_Hint">Username</string>
+    <string name="passwordSignET_Hint">Password</string>
+    <string name="loginSignUpBT_Text">Зарегистрироваться</string>
+    <string name="buttonSignUpCheck_Toast">Данные не введены</string>
+    <string name="buttonSignUp_TransactionToast">Вы успешно зарегестрированы</string>
+    <string name="signInTitleTV_Text">SignIn</string>
+    <string name="loginSignInBT_Text">Войти</string>
+    <string name="loginSignInBT_Check_Toast">Введены не верные логин или пароль</string>
+    <string name="account_Text">На вашем счету:</string>
+    <string name="credit_Text">Вам доступен супер выгодный кредит в 100 денег, на 30 лет, под сумашедшие 300%!!!</string>
+</resources>

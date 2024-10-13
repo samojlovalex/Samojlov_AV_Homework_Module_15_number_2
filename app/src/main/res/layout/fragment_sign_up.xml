@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="@dimen/signFragment_Padding"
+    tools:context=".fragments.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/signUpTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/signFragment_Margin"
+            android:gravity="center"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/signUpTitleTV_Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/startFragment_NameTextSize"></TextView>
+
+        <ImageView
+            android:layout_width="@dimen/imageRadius"
+            android:layout_height="@dimen/imageRadius"
+            android:src="@drawable/ic_account_circle_24"></ImageView>
+
+        <EditText
+            android:id="@+id/userNameSignUpET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signFragment_MarginTop"
+            android:background="@drawable/frame_background"
+            android:hint="@string/userNameSignET_Hint"
+            android:inputType="text"
+            android:minHeight="@dimen/minHeight"
+            android:padding="@dimen/signFragment_PaddingElement"
+            android:textColor="@color/Steel_Blue"
+            android:textColorHint="@color/Steel_Blue"
+            android:textSize="@dimen/signFragment_TextSize"></EditText>
+
+        <EditText
+            android:id="@+id/passwordSignUpET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signFragment_MarginTop"
+            android:background="@drawable/frame_background"
+            android:hint="@string/passwordSignET_Hint"
+            android:inputType="textPassword"
+            android:minHeight="@dimen/minHeight"
+            android:padding="@dimen/signFragment_PaddingElement"
+            android:textColor="@color/Steel_Blue"
+            android:textColorHint="@color/Steel_Blue"
+            android:textSize="@dimen/signFragment_TextSize"></EditText>
+
+        <Button
+            android:id="@+id/loginSignUpBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/signFragment_MarginTop"
+            android:backgroundTint="@color/Blue"
+            android:padding="@dimen/signFragment_PaddingElement"
+            android:text="@string/loginSignUpBT_Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/signFragment_TextSize"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

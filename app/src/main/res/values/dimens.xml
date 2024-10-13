@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+
+    <dimen name="frame_radius">20dp</dimen>
+    <dimen name="frame_width">2dp</dimen>
+
+    <dimen name="startFragment_NameTextSize">25sp</dimen>
+    <dimen name="startFragment_InfoTextSize">20sp</dimen>
+    <dimen name="startFragment_InfoMargin">10dp</dimen>
+    <dimen name="startFragment_PaddingButton">8dp</dimen>
+    <dimen name="startFragment_MarginTop">16dp</dimen>
+
+    <dimen name="signFragment_Padding">16dp</dimen>
+    <dimen name="signFragment_Margin">36dp</dimen>
+    <dimen name="signFragment_MarginTop">32dp</dimen>
+    <dimen name="imageRadius">160dp</dimen>
+    <dimen name="signFragment_PaddingElement">8dp</dimen>
+    <dimen name="signFragment_TextSize">20sp</dimen>
+
+    <dimen name="lastFragment_TextSize">16sp</dimen>
+
+    <dimen name="margin_CardVieW">8dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".fragments.StartFragment">
+
+    <TextView
+        android:id="@+id/startNameTextViewTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/startNameTextViewTV_Hint"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_marginTop="@dimen/startFragment_MarginTop"
+        android:text="@string/startNameTextViewTV_Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="@color/Grey"
+        android:textSize="@dimen/startFragment_NameTextSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/startInfoTextViewTV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        android:layout_margin="@dimen/startFragment_InfoMargin"
+        android:gravity="center"
+        android:hint="@string/startInfoTextViewTV"
+        android:textColor="@color/white"
+        android:textColorHint="@color/Grey"
+        android:textSize="@dimen/startFragment_InfoTextSize"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startNameTextViewTV"></TextView>
+
+    <ImageView
+        android:id="@+id/startImageIV"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        android:layout_margin="@dimen/startFragment_InfoMargin"
+        android:scaleType="centerInside"
+        android:src="@drawable/bank_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startInfoTextViewTV"></ImageView>
+
+    <android.widget.Button
+        android:id="@+id/startButtonBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frame_background"
+        android:text="@string/startButtonBT_Text"
+        android:padding="@dimen/startFragment_PaddingButton"
+        android:textColor="@color/Steel_Blue"
+        android:textSize="@dimen/startFragment_NameTextSize"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startImageIV"></android.widget.Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
